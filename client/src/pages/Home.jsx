@@ -49,20 +49,20 @@ export default function Home() {
     <div>
       {/* top */}
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto'>
-        <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>
-          Simplify your <span className='text-slate-500'>real</span>
+        <h1 className='text-red-700 font-bold text-3xl lg:text-6xl'>
+          Simplify your <span className='text-gray-500'>real</span>
           <br />
           estate search
           
         </h1>
-        <div className='text-gray-400 text-xs sm:text-sm'>
+        <div className='text-black-400 text-xs sm:text-sm'>
           Search listings. Find your perfect match. Explore diverse properties that suit your lifestyle.
           <br />
           Find your ideal stay here!!
         </div>
         <Link
           to={'/search'}
-          className='text-xs sm:text-sm text-blue-800 font-bold hover:underline'
+          className='text-xs sm:text-sm text-green-800 font-bold hover:underline'
         >
           Let's get started...
         </Link>
