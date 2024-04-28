@@ -4,6 +4,8 @@ Project Snippets: #project-snippets  A modern real estate web application built 
 
 ## Project Snippets 
 ![Header](images/header.jpg)
+![recent](images/recent.jpg)
+![dashboard](images/dash.jpg)
 
 ## Project Overview
 
