@@ -45,15 +45,11 @@ Install dependencies:
 #### Frontend (client)
 
 Navigate to the client directory:
-Bash
-cd client
-Use code with caution.
-content_copy
+`cd client`
+
 Install dependencies:
-Bash
-npm install
-Use code with caution.
-content_copy
+`npm install`
+
 ### Running the Application
 
 #### Backend (api)
@@ -82,10 +78,6 @@ Enable authentication and storage services for your project.
 Download the Firebase configuration file (google-services.json or equivalent).
 Place the configuration file in the root of your frontend project (client).
 Follow Firebase documentation to set up authentication and storage functionalities in your frontend code.
-## Project Structure
-
-A detailed explanation of the project's directory structure can be provided here, outlining the purpose of each folder.
 
 ## Contributing
-
 We welcome contributions to this project! Please refer to the CONTRIBUTING.md file (if you have one) for guidelines on how to contribute.
