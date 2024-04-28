@@ -1,7 +1,5 @@
 # EstateVerse
 
-Project Snippets: #project-snippets  A modern real estate web application built with MERN stack (MongoDB, Express, React, Node.js) and Firebase.
-
 ## Project Snippets 
 ![Header](images/header.jpg)
 ![recent](images/recent.jpg)
@@ -10,17 +8,17 @@ Project Snippets: #project-snippets  A modern real estate web application built 
 ## Project Overview
 
 EstateVerse is a web application that helps users manage and explore real estate listings. It provides features like:
-
 User authentication and profile management
 Listing creation and editing
 Search and filter functionalities
-(Add more features specific to your project)
-## Tech Stack
 
+## Tech Stack
 Frontend: React, Vite
 Backend: Node.js, Express.js
 Database: MongoDB
 Authentication & Storage: Firebase
+
+
 ## Getting Started
 
 ### Prerequisites
