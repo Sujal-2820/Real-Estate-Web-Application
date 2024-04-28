@@ -2,7 +2,8 @@
 
 Project Snippets: #project-snippets  A modern real estate web application built with MERN stack (MongoDB, Express, React, Node.js) and Firebase.
 
-## Project Snippets  [Add a brief description of each snippet here]
+## Project Snippets 
+![Header](images/header.jpg)
 
 ## Project Overview
 
