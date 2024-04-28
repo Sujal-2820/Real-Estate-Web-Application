@@ -2,25 +2,6 @@
 
 Project Snippets: #project-snippets  A modern real estate web application built with MERN stack (MongoDB, Express, React, Node.js) and Firebase.
 
-## Table of Contents
-
-Project Overview: #project-overview
-Tech Stack: #tech-stack
-Getting Started: #getting-started
-Prerequisites: #prerequisites
-Forking and Cloning the Repository: #forking-and-Cloning-the-Repository
-Installing Dependencies: #installing-dependencies
-Backend (api): #backend-api
-Frontend (client): #frontend-client
-Running the Application: #running-the-application
-Backend (api): #backend-api-running
-Frontend (client): #frontend-client-running
-Setting Up Database and Authentication: #setting-up-database-and-authentication
-MongoDB Atlas Setup: #mongodb-atlas-setup
-Firebase Authentication and Storage: #firebase-authentication-and-storage
-Project Structure: #project-structure
-Contributing: #contributing
-License: #license
 ## Project Snippets  [Add a brief description of each snippet here]
 
 ## Project Overview
