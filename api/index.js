@@ -6,6 +6,7 @@ import authRouter from './routes/auth.route.js';
 import listingRouter from './routes/listing.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
+const cors = require('cors');
 dotenv.config();
 
 mongoose
@@ -18,6 +19,14 @@ mongoose
   });
 
   const __dirname = path.resolve();
+
+  const corsOptions = {
+    origin: 'https://real-estate-web-application-owuv.onrender.com', // Allow requests from your frontend development URL
+    credentials: true, // Allow cookies for authenticated requests (if applicable)
+    optionsSuccessStatus: 200 // Send a 200 response for preflight OPTIONS requests
+  }
+  
+  app.use(cors(corsOptions));
 
 const app = express();
 

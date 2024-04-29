@@ -6,8 +6,8 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
-        secure: false,
+        target: 'https://real-estate-web-application-owuv.onrender.com',
+        secure: true,
       },
     },
   },
