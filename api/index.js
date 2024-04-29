@@ -20,6 +20,8 @@ mongoose
 
   const __dirname = path.resolve();
 
+  const allowedOrigins = ['https://estateverse.vercel.app']; 
+
 const app = express();
 
 // const prodOrigin = [process.env.ORIGIN]; // Replace with your actual frontend domain
@@ -38,7 +40,19 @@ const app = express();
 //     methods: ['GET', 'POST', 'PUT', 'DELETE'],
 //   }));
 
-app.use(cors());
+// app.use(cors());
+
+app.use(cors({
+  origin: (origin, callback) => {
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+}));
  
 app.use(express.json());
 
