@@ -20,7 +20,7 @@ mongoose
 
   const __dirname = path.resolve();
 
-  const allowedOrigins = ['https://estateverse.vercel.app']; 
+  // const allowedOrigins = ['https://estateverse.vercel.app']; 
 
 const app = express();
 
@@ -40,12 +40,12 @@ const app = express();
 //     methods: ['GET', 'POST', 'PUT', 'DELETE'],
 //   }));
 
-// app.use(cors());
-app.use(cors({
-  origin: 'https://estateverse.vercel.app',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowHeaders: ['Content-Type']
-}));
+app.use(cors());
+// app.use(cors({
+//   origin: 'https://estateverse.vercel.app',
+//   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//   allowHeaders: ['Content-Type']
+// }));
  
 app.use(express.json());
 
