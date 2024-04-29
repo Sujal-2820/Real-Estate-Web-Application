@@ -43,7 +43,8 @@ const app = express();
 // app.use(cors());
 app.use(cors({
   origin: 'https://estateverse.vercel.app',
-  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowHeaders: ['Content-Type']
 }));
  
 app.use(express.json());
