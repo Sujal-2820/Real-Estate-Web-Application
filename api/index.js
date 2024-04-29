@@ -20,14 +20,6 @@ mongoose
 
   const __dirname = path.resolve();
 
-  const corsOptions = {
-    origin: 'https://real-estate-web-application-owuv.onrender.com', // Allow requests from your frontend development URL
-    credentials: true, // Allow cookies for authenticated requests (if applicable)
-    optionsSuccessStatus: 200 // Send a 200 response for preflight OPTIONS requests
-  }
-  
-  app.use(cors(corsOptions));
-
 const app = express();
 
 const devOrigin = ['https://real-estate-web-application-8sb7.onrender.com/',]
