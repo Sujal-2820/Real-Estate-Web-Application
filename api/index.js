@@ -22,21 +22,23 @@ mongoose
 
 const app = express();
 
-const prodOrigin = [process.env.ORIGIN]; // Replace with your actual frontend domain
-const devOrigin = ['http://localhost:5173/']
-const allowedOrigins = process.env.NODE_ENV === 'production' ? prodOrigin : devOrigin;
-  app.use(cors({
-    origin: (origin, callback) => {
-      if(allowedOrigins.includes(origin)){
-        console.log(origin, allowedOrigins)
-        callback(null, true);
-      }else{
-        callback(new Error('Not allowed by cors'));
-      }
-    },
-    credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  }));
+// const prodOrigin = [process.env.ORIGIN]; // Replace with your actual frontend domain
+// const devOrigin = ['http://localhost:5173']
+// const allowedOrigins = process.env.NODE_ENV === 'production' ? prodOrigin : devOrigin;
+//   app.use(cors({
+//     origin: (origin, callback) => {
+//       if(allowedOrigins.includes(origin)){
+//         console.log(origin, allowedOrigins)
+//         callback(null, true);
+//       }else{
+//         callback(new Error('Not allowed by cors'));
+//       }
+//     },
+//     credentials: true,
+//     methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//   }));
+
+app.use(cors());
  
 app.use(express.json());
 
