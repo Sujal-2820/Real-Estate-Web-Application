@@ -19,9 +19,10 @@ mongoose
   });
 
   const __dirname = path.resolve();
+  const app = express();
 
   const corsOptions = {
-    origin: 'https://real-estate-web-application-owuv.onrender.com', // Allow requests from your frontend development URL
+    origin: 'https://real-estate-web-application-8sb7.onrender.com', // Allow requests from your frontend development URL
     credentials: true, // Allow cookies for authenticated requests (if applicable)
     optionsSuccessStatus: 200 // Send a 200 response for preflight OPTIONS requests
   }
