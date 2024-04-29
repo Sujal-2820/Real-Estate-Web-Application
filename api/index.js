@@ -25,7 +25,7 @@ const app = express();
 const devOrigin = ['https://real-estate-web-application-8sb7.onrender.com']
 const prodOrigin = 'http://localhost:5173';
 
-const allowedOrigins = production === 'production' ? prodOrigin : devOrigin;
+const allowedOrigins = process.env.NODE_ENV === 'production' ? prodOrigin : devOrigin;
   app.use(cors({
   origin: allowedOrigins,
   credentials: true,
