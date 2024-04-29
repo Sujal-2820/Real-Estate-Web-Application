@@ -22,8 +22,8 @@ mongoose
 
 const app = express();
 
-const devOrigin = ['https://real-estate-web-application-8sb7.onrender.com']
-const prodOrigin = 'http://localhost:5173';
+const devOrigin = ['http://localhost:5173/']
+const prodOrigin = 'https://real-estate-web-application-8sb7.onrender.com';
 
 const allowedOrigins = process.env.NODE_ENV === 'production' ? prodOrigin : devOrigin;
   app.use(cors({
