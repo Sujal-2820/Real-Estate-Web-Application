@@ -9,7 +9,7 @@
 
 EstateVerse is a web application that helps users manage and explore real estate listings. It provides features like:
 User authentication and profile management
-Listing creation and editing
+Listing creation and editing 
 Search and filter functionalities
 
 ## Tech Stack
