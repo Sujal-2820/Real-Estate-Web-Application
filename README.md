@@ -29,6 +29,7 @@ A Firebase project with configured authentication and storage.
 
 Fork this repository on GitHub.
 Clone your forked repository to your local machine using Git.
+
 ### Installing Dependencies
 
 #### Backend (api)
