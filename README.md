@@ -1,7 +1,7 @@
 # EstateVerse
 
 ## Our Top Contributors 
-<img src="images/Ayushi.jpeg" alt="Contributor 1" width="100"/> [GitHub Profile](https://github.com/Ayu1C)
+<img src="images/Ayushi.jpeg" alt="Contributor 1" href="https://github.com/Ayu1C" width="100"/>
 
 ## Project Snippets 
 ![Header](images/header.jpg)
