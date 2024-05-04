@@ -1,5 +1,8 @@
 # EstateVerse
 
+## About Contributers
+![Contributor 1](images/Ayushi.jpeg) [GitHub Profile](https://github.com/)
+
 ## Project Snippets 
 ![Header](images/header.jpg)
 ![recent](images/recent.jpg)
