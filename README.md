@@ -1,7 +1,7 @@
 # EstateVerse
 
 ## About Contributers
-[![Contributor 1](https://github.com/Ayu1C?size=100)](https://github.com/contributor1)
+[![Contributor 1](https://github.com/Ayu1C.png?size=100)](https://github.com/contributor1)
 
 ## Project Snippets 
 ![Header](images/header.jpg)
