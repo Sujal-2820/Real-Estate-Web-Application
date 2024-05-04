@@ -96,6 +96,7 @@ Follow Firebase documentation to set up authentication and storage functionaliti
 <a href="https://github.com/Ayu1C">Ayushi</a> handeled the Frontend and laid out the User Interface maintaining the responsiveness of the interface.
 <br/>
 <a href="https://github.com/ayushharode">Ayush</a> took over the component integration and implemented the overall logic and dataflow within the project.
+<br/>
 <a href="https://github.com/Sujal-2820">Sujal</a> handeled the Backend and integrated Firebase for Image Processing and Authentication
 
 ## Contributing
