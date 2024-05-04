@@ -1,7 +1,7 @@
 # EstateVerse
 
 ## About Contributers
-![Contributor 1](images/Ayushi.jpeg) [GitHub Profile](https://github.com/)
+![Contributor 1](images/Ayushi.jpe?size=50) [GitHub Profile](https://github.com/)
 
 ## Project Snippets 
 ![Header](images/header.jpg)
