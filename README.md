@@ -77,14 +77,13 @@ Start the development server:
 ## Setting Up Database and Authentication
 
 ### MongoDB Atlas Setup
-
 Create a free MongoDB Atlas account.
 Create a new cluster and database.
 Secure your cluster by enabling authentication and creating a user.
 Obtain the connection string for your MongoDB database.
 Add the connection string to your backend project's .env file (api).
-### Firebase Authentication and Storage
 
+### Firebase Authentication and Storage
 Create a Firebase project in the Firebase console.
 Enable authentication and storage services for your project.
 Download the Firebase configuration file (google-services.json or equivalent).
@@ -92,7 +91,6 @@ Place the configuration file in the root of your frontend project (client).
 Follow Firebase documentation to set up authentication and storage functionalities in your frontend code.
 
 ## How did we divde our work:
-
 <a href="https://github.com/Ayu1C">Ayushi</a> handeled the Frontend and laid out the User Interface maintaining the responsiveness of the interface.
 <br/>
 <a href="https://github.com/ayushharode">Ayush</a> took over the component integration and implemented the overall logic and dataflow within the project.
